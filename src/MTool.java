@@ -1,4 +1,4 @@
-public class MTool extends MathSoftware{
+public abstract class MTool extends MathSoftware{
 
     public MTool(){
         this.sm = new Merge();

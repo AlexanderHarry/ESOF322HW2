@@ -1,4 +1,4 @@
-public abstract class MathSoftware {
+public abstract class MathSoftware implements SortMethods {
 
      SortMethods sm;
 

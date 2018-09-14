@@ -1,9 +1,25 @@
 public class Main {
-    MathSoftware mathmatica = new Mathematica();
-    MathSoftware mtool = new MTool();
-    MathSoftware myMath = new MyMath();
+    public static void main(String args[]) {
 
-    mathmatica.
 
+    MathSoftware mathmatica = new Mathematica() {
+        @Override
+        public void sort() {
+
+        }
+    };
+    MathSoftware mtool = new MTool() {
+        @Override
+        public void sort() {
+
+        }
+    };
+    MathSoftware myMath = new MyMath() {
+        @Override
+        public void sort() {
+
+        }
+    };
+}
 
 }
