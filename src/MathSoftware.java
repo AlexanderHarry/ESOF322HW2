@@ -1,15 +1,12 @@
-public abstract class MathSoftware implements SortMethods {
+public abstract class MathSoftware {
 
     SortMethods sm;
 
     public void performSort() {
-        sm.sort();
+        this.sm.sort();
     }
-
 
     public void set_sort(SortMethods arg) {
         this.sm = arg;
     }
-
-
 }

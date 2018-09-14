@@ -1,9 +1,6 @@
 public class Bubble implements SortMethods {
-public Bubble(){
-    this.sort();
+public void sort(){
+System.out.println("Bubble");
 }
-    @Override
-    public void sort() {
-        System.out.println("Bubble sort");
-    }
+
 }
