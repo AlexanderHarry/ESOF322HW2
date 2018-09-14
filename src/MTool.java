@@ -4,8 +4,5 @@ public abstract class MTool extends MathSoftware{
         this.sm = new Merge();
     }
 
-    @Override
-    public void sort() {
 
-    }
 }

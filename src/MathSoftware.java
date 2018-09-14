@@ -10,4 +10,6 @@ public abstract class MathSoftware implements SortMethods {
     public void set_sort(SortMethods arg) {
         this.sm = arg;
     }
+
+
 }
