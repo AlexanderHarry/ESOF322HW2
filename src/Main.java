@@ -3,7 +3,7 @@ public class Main {
     MathSoftware mtool = new MTool();
     MathSoftware myMath = new MyMath();
 
-    mathmatica.
+mathmatica.set_sort(new Bubble);
 
 
 }
